@@ -32,13 +32,14 @@ namespace CExercise1
 
         static void Main(string[] args)
         {
-
+            // this is the same was what is below for Books
             Fishing fishLocation = new Fishing
             {
                 Type = "Trout",
                 Location = "Cherokee"
             };
 
+            // hovering over new below will conver to the above
             Books newBook = new Books();
             newBook.Type = "Harry Potter";
 
