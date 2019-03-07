@@ -5,12 +5,6 @@ namespace CExercise1
     class Program
     {
 
-        class Fishing
-        {
-            public string Type { get; set; }
-            public string Location { get; set; }
-        }
-
         class Books
         {
             public string Type { get; set; }
@@ -29,6 +23,11 @@ namespace CExercise1
             public string Brand { get; set; }
         }
 
+        class Fishing
+        {
+            public string Type { get; set; }
+            public string Location { get; set; }
+        }
 
         static void Main(string[] args)
         {
