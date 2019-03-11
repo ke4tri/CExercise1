@@ -5,28 +5,29 @@ namespace CExercise1
     class Program
     {
 
-        class Books
+        class Master
         {
             public string Type { get; set; }
-            public string Cover { get; set; }
+
+
+            public Master(string type)
+            {
+                Type = type;
+            }
         }
 
-        class Tacos
-        {
-            public string Type { get; set; }
-            public string Meat { get; set; }
-        }
+        
 
-        class Shoes
-        {
-            public string Type { get; set; }
-            public string Brand { get; set; }
-        }
+        
+
+        
 
         class Fishing
         {
             public string Type { get; set; }
             public string Location { get; set; }
+
+ 
         }
 
         static void Main(string[] args)
